@@ -1,0 +1,265 @@
+/* //contact us css */
+.wrapper-C1 {
+    padding-top: 180px !important;
+    border-radius: 0px !important;
+    max-width: 1916px;
+    margin: 0 auto;
+
+}
+
+.wrapper-C2 {
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-form {
+    width: 100%;
+    display: flex;
+    background-color: #141719;
+    padding: 30px;
+    border-radius: 20px;
+
+}
+
+.form-left {
+    /* background-image: url("../../../public/images/contactus_img.png"); */
+    background-repeat: no-repeat;
+    background-color: #f80302;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    flex-basis: 32%;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.form-right {
+    flex-basis: 68%;
+    padding: 0px 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-left p {
+    color: white;
+    margin-bottom: 0px !important;
+}
+
+.contact-info-sec {
+    width: 160px;
+    display: flex;
+    gap: 20px;
+}
+
+.form-right form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.form-right form label {
+    display: block;
+    width: 100%;
+    position: relative;
+    margin: 30px 0px;
+}
+
+.form-right form label .label-txt {
+    position: absolute;
+    top: -1.6em;
+    padding: 10px 0px;
+    font-family: sans-serif;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: white;
+    transition: ease .3s;
+}
+
+.form-right form label .input {
+    width: 100%;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+}
+
+.form-right form label .input ::placeholder {
+    color: rgb(120, 120, 120);
+}
+
+.form-right form label .line-box {
+    position: relative;
+    width: 100%;
+    height: 2px;
+    background: #BCBCBC;
+}
+
+.form-right form label .line {
+    position: absolute;
+    width: 0%;
+    height: 2px;
+    top: 0px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #f80302;
+    transition: ease .6s;
+}
+
+.form-right form label .input:focus+.line-box .line {
+    width: 100%;
+}
+
+.form-right form label .label-active {
+    top: -3em;
+}
+
+.label-group {
+    display: flex;
+    gap: 20px;
+}
+
+.form-right form label select {
+    width: 100%;
+}
+
+.form-right form label select option {
+    background: #141719;
+    color: white;
+}
+
+.form-right .custombtn1 {
+    margin: 0 auto;
+}
+
+.btn1 {
+    padding: 13px 66px;
+    border-radius: 30px;
+    color: white;
+    font-size: 16px;
+    background: radial-gradient(50% 136.52% at 50% 50%, #f80302 0%, #cc0202 100%);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn1:hover {
+    box-shadow: 0 0 20px rgba(204, 5, 5, 0.973), 0 0 30px rgba(236, 6, 6, 0.4);
+}
+
+h4 {
+    font-size: 24px !important;
+    font-weight: 500;
+    line-height: 30px !important;
+}
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: var(--primary);
+    text-align: left;
+}
+
+/* media query */
+@media (max-width: 992px) {
+    .form-left {
+        gap: 10px;
+        padding: 18px;
+    }
+
+    .contact-info-sec {
+        width: 130px;
+        gap: 10px;
+    }
+
+    .contact-info-sec img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .form-right {
+        padding: 0px 20px;
+    }
+
+    .form-right form {
+        gap: 0px;
+    }
+
+    .label-group {
+        gap: 10px;
+    }
+
+    .form-right form label {
+        margin: 22px 0px;
+    }
+
+    .form-right form label .label-txt {
+        font-size: 14px;
+    }
+
+}
+
+@media (max-width: 768px) {
+    .main-form {
+        flex-direction: column;
+        gap: 40px;
+        padding: 20px;
+    }
+
+    .form-left {
+        padding: 20px 30px;
+        border-radius: 36px;
+    }
+
+    .form-right h4 {
+        text-align: center;
+        padding: 10px 0px;
+    }
+
+    .contact-info-container {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .contact-info-sec {
+        align-items: center;
+        justify-content: center;
+    }
+
+    .wrapper-C3-calender {
+        height: 500px;
+    }
+}
+
+@media (max-width: 576px) {
+    .wrapper-C1 .action-card {
+        padding-top: 140px !important;
+    }
+
+    .form-left {
+        padding: 14px 23px;
+        border-radius: 20px;
+    }
+
+    .contact-info-sec {
+        align-items: center;
+        justify-content: start;
+        width: 170px;
+    }
+
+    .label-group {
+        flex-direction: column;
+    }
+
+}
