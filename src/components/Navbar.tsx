@@ -52,7 +52,7 @@ const Navbar = () => {
       <div className="fixed top-10 inset-x-0 max-w-2xl mx-auto z-50 main-nav-bar text-black">
         <div className="nav-logo">
           <figure>
-            <Image src={logonav} alt="Pashangqu Logo" objectFit="cover" />
+          <Link href={"/"}>  <Image src={logonav} alt="Pashangqu Logo" objectFit="cover" /></Link>
           </figure>
         </div>
         <div className="nav-bar-content">

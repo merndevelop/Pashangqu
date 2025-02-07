@@ -2,8 +2,8 @@
     "gallery": [
         {
             "id": 1,
-            "title": "Hair Mask",
-            "image": "/images/cosmetics/7.png",
+            "title": "Dove Soap",
+            "image": "/images/cosmetics/soap.png",
             "isFeatured": true
         },
         {
@@ -14,14 +14,14 @@
         },
         {
             "id": 3,
-            "title": "Gel Facewash",
-            "image": "/images/cosmetics/Gel face wash.png",
+            "title": "Separator",
+            "image": "/images/stationary/seprator.png",
             "isFeatured": true
         },
         {
             "id": 4,
-            "title": "Carbon Paper",
-            "image": "/images/paper/1.png",
+            "title": "Shirts",
+            "image": "/images/garments/shirts.png",
             "isFeatured": true
         },
         {
@@ -36,185 +36,96 @@
             "image": "/images/paper/3.png",
             "isFeatured": true
         },
+       
         {
             "id": 1,
-            "title": "Lip balm",
-            "image": "/images/Lip balm.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Lipstick",
-            "image": "/images/Lipstick.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Eyeliner",
-            "image": "/images/Eyeliner.png",
-            "isFeatured": false
+                "title": "Pants",
+                "image": "/images/garments/10.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "Mascara",
-            "image": "/images/Mascara.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Moisturizer",
-            "image": "/images/Moisturizer.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Primer",
-            "image": "/images/Primer.png",
-            "isFeatured": false
+                "title": "Romper",
+                "image": "/images/garments/rompers.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "Setting Spray",
-            "image": "/images/Setting Spray.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Foundation1",
-            "image": "/images/Foundation1.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Blush",
-            "image": "/images/Blush.png",
-            "isFeatured": false
+                "title": "Shirts",
+                "image": "/images/garments/Nightwear,.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "Brownzer",
-            "image": "/images/Brownzer.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Concealer",
-            "image": "/images/Concealer.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Colorcorrector",
-            "image": "/images/Colorcorrector.png",
-            "isFeatured": false
+                "title": "Shorts",
+                "image": "/images/garments/Shorts.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "Compact",
-            "image": "/images/Compact.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Highlighter 2",
-            "image": "/images/Highlighter 2.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Face powder",
-            "image": "/images/Face powder.png",
-            "isFeatured": false
+                "title": "c10",
+                "image": "/images/garments/c10.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "Foundation",
-            "image": "/images/Foundation.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Gel eyelinear",
-            "image": "/images/Gel eyelinear.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Highlighter",
-            "image": "/images/Highlighter.png",
-            "isFeatured": false
+                "title": "c12",
+                "image": "/images/garments/c12.png",
+                "isFeatured": false
         },
         {
             "id": 1,
-            "title": "CC Cream",
-            "image": "/images/CC Cream.png",
-            "isFeatured": false
+                "title": "c13",
+                "image": "/images/garments/c13.png",
+                "isFeatured": false
         },
         {
-            "id": 2,
-            "title": "Eye shadow",
-            "image": "/images/Eye shadow.png",
-            "isFeatured": false
-        },
-        {
-            "id": 3,
-            "title": "Eyeliner",
-            "image": "/images/Eyeliner.png",
-            "isFeatured": false
-        },
-        {
-            "id": 1,
-            "title": "CC Cream",
-            "image": "/images/CC Cream.png",
-            "isFeatured": false
-        },
-        {
-            "id": 2,
-            "title": "Eye shadow",
-            "image": "/images/Eye shadow.png",
-            "isFeatured": false
+            "id": 10,
+                "title": "Aloe Facewash",
+                "image": "/images/cosmetics/face wash.png",
+                "isFeatured": false
         },
         {
             "id": 3,
-            "title": "Eyeliner",
-            "image": "/images/Eyeliner.png",
-            "isFeatured": false
+                "title": "10",
+                "image": "/images/cosmetics/10.png",
+                "isFeatured": false
         },
         {
-            "id": 1,
-            "title": "CC Cream",
-            "image": "/images/CC Cream.png",
-            "isFeatured": false
+            "id": 4,
+                "title": "11",
+                "image": "/images/cosmetics/11.png",
+                "isFeatured": false
         },
         {
-            "id": 2,
-            "title": "Eye shadow",
-            "image": "/images/Eye shadow.png",
-            "isFeatured": false
+            "id": 9,
+                "title": "Highlighter",
+                "image": "/images/stationary/highliter.png",
+                "isFeatured": false
         },
         {
-            "id": 3,
-            "title": "Eyeliner",
-            "image": "/images/Eyeliner.png",
-            "isFeatured": false
+            "id": 7,
+                "title": "Paper Clipper",
+                "image": "/images/stationary/clipper.png",
+                "isFeatured": false
         },
         {
-            "id": 1,
-            "title": "CC Cream",
-            "image": "/images/CC Cream.png",
-            "isFeatured": false
+            "id": 23,
+                "title": "Sticky notes",
+                "image": "/images/stationary/sticky notes.png",
+                "isFeatured": false
         },
         {
-            "id": 2,
-            "title": "Eye shadow",
-            "image": "/images/Eye shadow.png",
-            "isFeatured": false
+            "id": 13,
+                "title": "13",
+                "image": "/images/paper/13.png",
+                "isFeatured": false
         },
         {
-            "id": 3,
-            "title": "Eyeliner",
-            "image": "/images/Eyeliner.png",
-            "isFeatured": false
+            "id": 14,
+                "title": "14",
+                "image": "/images/paper/14.png",
+                "isFeatured": false
         }
     ]
 }
