@@ -8,7 +8,7 @@ import emailjs from "@emailjs/browser";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
-const page = () => {
+const Page = () => {
   const form = useRef<HTMLFormElement | null>(null);
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -18,7 +18,7 @@ const page = () => {
   const contactUser = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
 
-    let userData = { name, email, message };
+    const userData = { name, email, message };
 
     if (
       userData.name.length === 0 ||
@@ -193,4 +193,4 @@ const page = () => {
   );
 };
 
-export default page;
+export default Page;

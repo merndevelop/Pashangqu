@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import { useState } from "react";
 import { FaFacebookSquare } from "react-icons/fa";
 import { FaInstagramSquare } from "react-icons/fa";
@@ -34,44 +35,44 @@ const Footer = () => {
           <h2 className="text-white text-lg font-semibold mb-4">Quick Links</h2>
           <ul>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/"
                 className="hover:text-white transition-colors duration-300"
               >
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/cosmetic"
                 className="hover:text-white transition-colors duration-300"
               >
                 Cosmetics
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/garments"
                 className="hover:text-white transition-colors duration-300"
               >
                 Garments
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/paper"
                 className="hover:text-white transition-colors duration-300"
               >
                 Paper
-              </a>
+              </Link>
             </li>
             <li>
-              <a
-                href="#"
+              <Link
+                href="/stationary"
                 className="hover:text-white transition-colors duration-300"
               >
                 Stationary
-              </a>
+              </Link>
             </li>
           </ul>
         </div>
@@ -79,28 +80,28 @@ const Footer = () => {
           <h2 className="text-white text-lg font-semibold mb-4">Follow Us</h2>
           <ul className="flex ">
             <li className="m-3">
-              <a
+              <Link
                 href="#"
                 className="hover:text-white transition-colors duration-300 "
               >
                 <FaFacebookSquare />
-              </a>
+              </Link>
             </li>
             <li className="m-3">
-              <a
+              <Link
                 href="#"
                 className="hover:text-white transition-colors duration-300"
               >
                 <FaInstagramSquare />
-              </a>
+              </Link>
             </li>
             <li className="m-3">
-              <a
+              <Link
                 href="#"
                 className="hover:text-white transition-colors duration-300"
               >
                 <FaLinkedin />
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

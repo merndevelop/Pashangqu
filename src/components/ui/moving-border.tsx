@@ -1,5 +1,5 @@
 "use client";
-import React from "react";
+import React, {ElementType} from "react";
 import {
     motion,
     useAnimationFrame,
@@ -22,12 +22,12 @@ export function Button({
 }: {
     borderRadius?: string;
     children: React.ReactNode;
-    as?: any;
+    as?: ElementType;
     containerClassName?: string;
     borderClassName?: string;
     duration?: number;
     className?: string;
-    [key: string]: any;
+    [key: string]: unknown;
 }) {
     return (
         <Component
@@ -80,12 +80,13 @@ export const MovingBorder = ({
     duration?: number;
     rx?: string;
     ry?: string;
-    [key: string]: any;
+    [key: string]: unknown;
 }) => {
-    const pathRef = useRef<any>();
+    const pathRef = useRef<SVGRectElement | null>(null); //1
     const progress = useMotionValue<number>(0);
 
     useAnimationFrame((time) => {
+        if (!pathRef.current) return; // Fix 2
         const length = pathRef.current?.getTotalLength();
         if (length) {
             const pxPerMillisecond = length / duration;
@@ -95,11 +96,11 @@ export const MovingBorder = ({
 
     const x = useTransform(
         progress,
-        (val) => pathRef.current?.getPointAtLength(val).x
+        (val) =>  pathRef.current ? pathRef.current.getPointAtLength(val).x : 0 // Fix 3
     );
     const y = useTransform(
         progress,
-        (val) => pathRef.current?.getPointAtLength(val).y
+        (val) =>  pathRef.current ? pathRef.current.getPointAtLength(val).y : 0 // Fix 3
     );
 
     const transform = useMotionTemplate`translateX(${x}px) translateY(${y}px) translateX(-50%) translateY(-50%)`;

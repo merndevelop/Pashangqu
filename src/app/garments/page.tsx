@@ -3,7 +3,7 @@
 import { garments } from "./../../../public/Data/data";
 import { BackgroundGradient } from "@/components/ui/background-gradient";
 import { Spotlight } from "@/components/ui/Spotlight";
-
+import Image from "next/image";
 const page = () => {
   return (
     <main className="min-h-screen bg-black/[0.96] antialiased bg-grid-white/[0.02]">
@@ -36,8 +36,11 @@ const page = () => {
               <div key={index} className="flex justify-center ">
                 <BackgroundGradient className="flex flex-col rounded-[22px] bg-zinc-900  dark:bg-zinc-900 overflow-hidden h-full max-w-sm">
                   <div className="p-4 sm:p-6 flex flex-col items-center text-center flex-grow">
-                    <img src={product.image} alt={product.title} />
-                   
+                    <figure>
+
+                      <Image width={300} height={300} src={product?.image} alt={product.title} />
+                    </figure>
+
                   </div>
                 </BackgroundGradient>
               </div>
